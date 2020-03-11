@@ -1,0 +1,63 @@
+.card {
+	width: 250px !important;
+	border-radius: 5px;
+	transition: 0.1s ease-in-out;
+
+	.header {
+		height: 40px;
+		font-weight: 900;
+		text-transform: uppercase;
+		font-size: 16pt;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.body {
+		padding: 10px;
+		text-align: center;
+
+		a {
+			color: $text;
+			display: inline-block;
+			text-decoration: none;
+			height: 20px;
+			border-bottom: 1px dashed $text;
+			transition: 0.2s linear;
+
+			&:hover {
+				border-bottom-color: $background;
+			}
+
+			&.inverse {
+				color: $background;
+				border-bottom-color: $background;
+
+				&:hover {
+					border-bottom-color: $text;
+				}
+			}
+		}
+	}
+
+	&.tech {
+		background: linear-gradient(120deg, $holi-magenta, $holi-purple);
+	}
+
+	&.cult {
+		background: linear-gradient(120deg, $holi-crimson, $holi-vermillion);
+	}
+
+	&.sports {
+		background: linear-gradient(120deg, $holi-lemon, $holi-yellow);
+		color: $background;
+	}
+
+	&.pro {
+		background: linear-gradient(120deg, $holi-night, $holi-blue);
+	}
+
+	&:hover {
+		box-shadow: 3px 3px 5px rgba(white, 0.1);
+	}
+}

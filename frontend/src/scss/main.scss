@@ -1,0 +1,27 @@
+/**
+* @Author: Ayush Mukherjee
+* @Date: 11 March, 2020
+*/
+
+/* import abstracts */
+@import 'abstract/variables';
+
+/* import base */
+@import 'base/reset',
+		'base/base';
+
+/* import components */
+@import 'components/header',
+		'components/footer',
+		'components/heading',
+		'components/card',
+		'components/btn';
+
+/* import layout */
+
+/* import pages */
+@import 'pages/home',
+		'pages/sports',
+		'pages/events';
+
+/* import vendor */

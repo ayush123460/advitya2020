@@ -1,0 +1,21 @@
+.btn {
+    width: 150px;
+    padding: 5px;
+    background: #eee;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $background;
+
+    &.tech {
+        background: linear-gradient(120deg, $holi-magenta, $holi-purple);
+        color: white;
+    }
+
+    &.cult {
+        background: linear-gradient(120deg, $holi-crimson, $holi-vermillion);
+        color: white;
+    }
+}

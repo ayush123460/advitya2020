@@ -1,0 +1,21 @@
+.heading {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-transform: uppercase;
+
+	span {
+		font-weight: 600;
+		font-size: 18pt;
+
+		&:last-child {
+			font-size: 20pt;
+			font-weight: 800;
+		}
+	}
+}
